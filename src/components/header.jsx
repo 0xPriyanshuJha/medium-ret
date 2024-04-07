@@ -5,7 +5,6 @@ const header = () => {
   return (
     <header className='border-b border-black bg-white sticky top-0 z-50'>
       <div className='size h-[55px] flex items-center justify-between max-w-5xl mx-auto'>
-
         <img
           className="h-[2.2rem]"
           src="https://miro.medium.com/v2/resize:fit:8978/1*s986xIGqhfsN8U--09_AdA.png"
