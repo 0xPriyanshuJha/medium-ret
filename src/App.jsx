@@ -7,6 +7,7 @@ import Create from "./components/Create";
 import Membership from "./components/Membership";
 import Reward from "./components/Reward";
 import Download from "./components/Download";
+import Learn from "./components/Learn";
 
 
 function App() {
@@ -20,6 +21,16 @@ function App() {
       <Membership />
       <Reward />
       <Download />
+      <Learn />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   )
 }
