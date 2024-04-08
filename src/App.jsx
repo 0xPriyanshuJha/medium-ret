@@ -1,7 +1,9 @@
 import React from "react"; 
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Profile from "./components/profile";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Profile from "./components/Profile";
+import Write from "./components/Write";
+import Create from "./components/Create";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Hero />
       <Profile />
+      <Write />
+      <Create />
     </>
   )
 }

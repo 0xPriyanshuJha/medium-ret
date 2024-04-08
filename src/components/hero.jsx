@@ -4,14 +4,14 @@ import photo from '../assets/photo.png';
 const IdeaMessage = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-white ">
-      <div className="max-w-5xl py-20">
+      <div className="max-w-7xl py-20">
         <h1 className="text-center font-primary text-6xl text-gray-800  tracking-normal">
           Every idea needs a <span className='font-semibold'>Medium.</span> 
         </h1>
       </div>
       <hr className="h-px bg-black border-0 dark:bg-gray-700 w-screen " />
-      <div className="flex justify-between items-center bg-white">
-        <div className="max-w-2xl text-base w-1/2 border-r-[1.5px] border-black p-10 font-secondary">
+      <div className="max-w-7xl flex justify-between items-center bg-white w-full">
+        <div className="text-base w-1/2 border-r-[1.5px] border-black p-10 font-secondary">
           <p className="text-gray-600 leading-relaxed">
             The best ideas can change who we are. Medium is where those ideas take shape, take off, and spark powerful conversations. We're an open platform where over 100 million readers come to find insightful and dynamic thinking. Here, expert and undiscovered voices alike dive into the heart of any topic and bring new ideas to the surface. Our purpose is to spread these ideas and deepen understanding of the world.
           </p>
