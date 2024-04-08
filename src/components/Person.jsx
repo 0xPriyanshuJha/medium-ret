@@ -9,4 +9,4 @@ const Person = ({ picture, name, className }) => {
     )
 }
 
-export default Person
+export default Person;

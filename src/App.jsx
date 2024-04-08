@@ -4,6 +4,10 @@ import Hero from "./components/Hero";
 import Profile from "./components/Profile";
 import Write from "./components/Write";
 import Create from "./components/Create";
+import Membership from "./components/Membership";
+import Reward from "./components/Reward";
+import Download from "./components/Download";
+
 
 function App() {
   return (
@@ -13,6 +17,9 @@ function App() {
       <Profile />
       <Write />
       <Create />
+      <Membership />
+      <Reward />
+      <Download />
     </>
   )
 }

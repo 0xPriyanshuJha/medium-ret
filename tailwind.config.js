@@ -10,6 +10,10 @@ export default {
         'primary': [ "PT Serif", 'serif'],
         'secondary': ['Helvetica', 'Arial', 'sans-serif']
       },
+      colors: {
+        brandGreen: "#36a243",
+        royalGreen: "#B4e5a2"
+      }
     },
   },
   plugins: [],
