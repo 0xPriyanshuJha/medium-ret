@@ -9,7 +9,7 @@ const Download = () => {
     <div className="bg-royalGreen flex flex-col items-center justify-center">
       <div className="max-w-7xl flex w-full">
         <div className="w-1/2 py-8 px-3 flex flex-col items-start space-y-8">
-          <div >
+          <div>
             <h1 className="font-primary text-7xl text-black tracking-normal max-w-2xl mx-auto">
               Take Medium <br />
               with you.
@@ -31,11 +31,15 @@ const Download = () => {
             />
           </div>
         </div>
-          <div className="w-1/2 pt-5 flex justify-end mr-[100px]">
-          <img src={Statistics} alt="stats" className="h-[300px] w-[280px] mt-8" />
+        <div className="w-1/2 pt-5 flex flex-col items-end justify-end ">
+          <img
+            src={Statistics}
+            alt="stats"
+            className="h-[300px] w-[280px] mt-8 md:mr-[100px] mr-[20px]"
+          />
         </div>
       </div>
-      <hr className="h-px bg-white border-1 border-black dark:bg-black w-screen"/>
+      <hr className="h-px bg-white border-1 border-black dark:bg-black w-screen" />
     </div>
   );
 };

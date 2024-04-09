@@ -21,13 +21,13 @@ const Learn = () => {
               </p>
               <Buttons
                 onClick={() => {
-                  console.log("Membership options clicked");
+                  console.log("Read our blogs clicked");
                 }}
                 outlineColor="border-brandGreen"
                 textColor="text-brandGreen"
                 bgColor="bg-white"
                 text="Read our blogs"
-                className="hover:outline-white hover:text-brandGreen hover:bg-white duration-300"
+                className="hover:outline-brandGreen hover:text-white hover:bg-brandGreen duration-300"
               />
             </div>
             <div className="p-7">
@@ -38,13 +38,13 @@ const Learn = () => {
               </p>
               <Buttons
                 onClick={() => {
-                  console.log("Membership options clicked");
+                  console.log("View open positions clicked");
                 }}
                 outlineColor="border-brandGreen"
                 textColor="text-brandGreen"
                 bgColor="bg-white"
                 text="View open positions"
-                className="hover:outline-white hover:text-brandGreen hover:bg-white duration-300"
+                className="hover:outline-brandGreen hover:text-white hover:bg-brandGreen duration-300"
               />
             </div>
           </div>

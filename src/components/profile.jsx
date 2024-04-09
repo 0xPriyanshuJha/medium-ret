@@ -1,20 +1,32 @@
 import React from "react";
 import Person from "./Person.jsx";
+import image1 from "../assets/1.jpeg";
+import image2 from "../assets/2.jpeg";
+import image3 from "../assets/3.jpeg";
+import image4 from "../assets/4.jpeg";
+import image5 from "../assets/5.jpeg";
+import image6 from "../assets/6.jpeg";
+import image7 from "../assets/7.jpeg";
+import image8 from "../assets/8.jpeg";
+import image9 from "../assets/9.jpeg";
+import image10 from "../assets/10.jpeg";
+import image11 from "../assets/11.jpeg";
+import image12 from "../assets/12.jpeg";
 
-const profile = () => {
+const Profile = () => {
   const persons = [
-    ["https://dummyimage.com/80x80", "Erica Dhawan"],
-    ["https://dummyimage.com/88x88", "Devon Price"],
-    ["https://dummyimage.com/88x88", "GEN"],
-    ["https://dummyimage.com/90x90", "Scott Galloway"],
-    ["https://dummyimage.com/94x94", "Kaki Okumura"],
-    ["https://dummyimage.com/98x98", "Hal H. Harris"],
-    ["https://dummyimage.com/100x90", "OneZero"],
-    ["https://dummyimage.com/104x94", "Carvell Wallace"],
-    ["https://dummyimage.com/108x98", "Elemental"],
-    ["https://dummyimage.com/108x98", "Sarah Cottrell"],
-    ["https://dummyimage.com/108x98", "Forge"],
-    ["https://dummyimage.com/108x98", "LEVEL"],
+    [image1, "Erica Dhawan"],
+    [image2, "Devon Price"],
+    [image3, "GEN"],
+    [image4, "Scott Galloway"],
+    [image5, "Kaki Okumura"],
+    [image6, "Hal H. Harris"],
+    [image7, "OneZero"],
+    [image8, "Carvell Wallace"],
+    [image9, "Elemental"],
+    [image10, "Sarah Cottrell"],
+    [image11, "Forge"],
+    [image12, "Another Person"]
   ];
 
   return (
@@ -42,4 +54,4 @@ const profile = () => {
   );
 };
 
-export default profile;
+export default Profile;

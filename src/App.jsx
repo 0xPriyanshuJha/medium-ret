@@ -8,6 +8,8 @@ import Membership from "./components/Membership";
 import Reward from "./components/Reward";
 import Download from "./components/Download";
 import Learn from "./components/Learn";
+import Getstarted from "./components/Getstarted";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -22,15 +24,8 @@ function App() {
       <Reward />
       <Download />
       <Learn />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Getstarted />
+      <Footer />
     </>
   )
 }
