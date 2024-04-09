@@ -44,14 +44,14 @@ const Profile = () => {
             suite of blogs and publications.
           </p>
         </div>
-        <div className="w-full p-5 grid grid-flow-row grid-cols-3 gap-x-5">
+        <div className="w-full p-5 grid grid-cols-1 md:grid-cols-3 gap-x-5">
           {persons.map(([picture, name], index) => {
             return (
               <Person
                 key={index}
                 picture={picture}
                 name={name}
-                className={index > 8 && "border-b-[1.5px]"}
+                className={index > 8 && (index !== 11 ? "md:border-b-[1.5px]" : "border-b-[1.5px]")}
               />
             );
           })}

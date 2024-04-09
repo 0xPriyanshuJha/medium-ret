@@ -11,9 +11,7 @@ const Buttons = ({
   return (
     <button
       onClick={onClick}
-      className={`border ${[outlineColor, bgColor, textColor, className].join(
-        " "
-      )} bg-black px-8 py-1 rounded-full text-lg`}
+      className={`border ${outlineColor} ${bgColor} ${textColor} ${className} bg-black px-6 py-2 md:px-8 md:py-1 rounded-full text-base md:text-lg`}
     >
       {text}
     </button>
