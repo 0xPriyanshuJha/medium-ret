@@ -1,5 +1,5 @@
 import React from "react";
-import Buttons from "./Buttons";
+import Buttons from "./Button";
 
 const Membership = () => {
   return (
@@ -10,8 +10,8 @@ const Membership = () => {
             Get more with Membership.
           </h1>
           <p className="text-center font-secondary text-sm text-black max-w-lg mx-auto leading-relaxed p-7">
-            Become a Medium member to enjoy unlimited access and directly support
-            the writers you read the most.
+            Become a Medium member to enjoy unlimited access and directly
+            support the writers you read the most.
           </p>
           <Buttons
             onClick={() => {
@@ -25,7 +25,7 @@ const Membership = () => {
           />
         </div>
       </div>
-      <hr className="h-px bg-white border-1 border-black dark:bg-black w-screen"/>
+      <hr className="h-px bg-white border-1 border-black dark:bg-black w-screen" />
     </div>
   );
 };

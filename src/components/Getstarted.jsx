@@ -1,6 +1,6 @@
 import React from "react";
 import Cube from "../assets/cube.png";
-import Buttons from "./Buttons";
+import Buttons from "./Button";
 
 const Reward = () => {
   return (
