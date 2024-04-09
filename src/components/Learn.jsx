@@ -6,8 +6,8 @@ const Learn = () => {
     <div className="bg-white flex flex-col items-center justify-center border-b border-black">
       <div className=" mx-auto w-full">
         <div className="flex w-full">
-          <div className="w-1/2 border-r border-black flex justify-end p-3">
-            <h1 className="font-primary text-7xl text-black tracking-normal w-full max-w-[640px] p-5">
+          <div className="w-1/2 border-r border-black flex justify-end ">
+            <h1 className="font-primary text-7xl text-black tracking-normal w-full max-w-[640px] p-6">
               Learn more <br />
               about us. Or <br /> join us.
             </h1>

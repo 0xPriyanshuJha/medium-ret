@@ -16,7 +16,11 @@ const Write = () => {
             alt="Profile"
             className=" h-[120px] object-cover mb-10"
           />
-          <p className="text-white mb-5">"Medium is a great place to read and learn from a <br />wide reange of authors. It's not muddied by ads. <br /> It feels like one of the few pure place to go online."</p>
+          <p className="text-white mb-5">
+            "Medium is a great place to read and learn from a <br />
+            wide reange of authors. It's not muddied by ads. <br /> It feels
+            like one of the few pure place to go online."
+          </p>
           <p className="text-white font-primary">Jackie Colburn</p>
         </div>
       </div>

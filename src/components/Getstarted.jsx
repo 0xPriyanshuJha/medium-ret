@@ -9,8 +9,8 @@ const Reward = () => {
         <div className="w-1/2 border-r-[1px] border-black p-6 flex flex-col">
           <img src={Cube} alt="Mrect" className="h-[500px] w-[470px]" />
         </div>
-        <div className="w-1/2 p-6">
-          <p className="text-black text-7xl font-primary">
+        <div className="w-1/2 p-6 flex flex-col justify-between">
+          <p className="text-black text-8xl font-primary">
             Read, write <br />
             and expand <br /> your world.
           </p>
@@ -22,7 +22,7 @@ const Reward = () => {
             textColor="text-white"
             bgColor="bg-brandGreen"
             text="Get Started"
-            className="hover:outline-white hover:text-brandGreen hover:bg-white duration-300 mt-[150px]"
+            className="w-fit hover:outline-white hover:text-brandGreen hover:bg-white duration-300"
           />
         </div>
       </div>

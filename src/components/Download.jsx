@@ -9,7 +9,7 @@ const Download = () => {
     <div className="bg-royalGreen flex flex-col items-center justify-center">
       <div className="max-w-7xl flex w-full">
         <div className="w-1/2 py-8 px-3 flex flex-col items-start space-y-8">
-          <div>
+          <div className="p-3">
             <h1 className="font-primary text-7xl text-black tracking-normal max-w-2xl mx-auto">
               Take Medium <br />
               with you.
@@ -18,7 +18,7 @@ const Download = () => {
               Download our app so you can read wherever you <br /> are.
             </p>
           </div>
-          <div className=" flex space-x-3">
+          <div className=" flex space-x-3 px-3">
             <DownloadBtn
               img={AppleImg}
               superText={"Download on the"}

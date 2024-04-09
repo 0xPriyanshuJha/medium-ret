@@ -26,7 +26,7 @@ const Profile = () => {
     [image9, "Elemental"],
     [image10, "Sarah Cottrell"],
     [image11, "Forge"],
-    [image12, "Another Person"]
+    [image12, "Another Person"],
   ];
 
   return (
@@ -46,7 +46,14 @@ const Profile = () => {
         </div>
         <div className="w-full p-5 grid grid-flow-row grid-cols-3 gap-x-5">
           {persons.map(([picture, name], index) => {
-            return <Person picture={picture} name={name} className={index > 8 && "border-b-[1.5px]" }/>;
+            return (
+              <Person
+                key={index}
+                picture={picture}
+                name={name}
+                className={index > 8 && "border-b-[1.5px]"}
+              />
+            );
           })}
         </div>
       </div>
