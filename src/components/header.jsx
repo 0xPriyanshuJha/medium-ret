@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Main from "../assets/main.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,26 +9,33 @@ const Header = () => {
   };
 
   return (
-    <header className=" bg-hola z-50">
-      <div className="size h-[80px] flex items-center justify-between max-w-7xl mx-auto pt-5">
-        <img className="h-[60px] w-[370px]" src={Main} alt="logo" />
+    <header className="border-b border-black bg-white sticky top-0 z-50">
+      <div className="size h-[55px] flex items-center justify-between max-w-7xl mx-auto">
+        <img
+          className="h-[2.2rem]"
+          src="https://miro.medium.com/v2/resize:fit:8978/1*s986xIGqhfsN8U--09_AdA.png"
+          alt="logo"
+        />
 
-        <div className="flex items-center gap-9">
-          <nav className="hidden sm:flex items-center gap-12 text-xl text-white">
+        <div className="flex items-center gap-5">
+          <nav className="hidden sm:flex items-center gap-5">
             <Link to="#" className="hover:underline">
-              Work
+              Our Story
             </Link>
             <Link to="#" className="hover:underline">
-              About
+              Membership
             </Link>
             <Link to="#" className="hover:underline">
-              Education
+              Write
             </Link>
             <Link to="#" className="hover:underline">
-              Certification
+              Sign In
             </Link>
-            <Link to="#" className="hover:underline">
-              Contact
+            <Link
+              to="#"
+              className="bg-black text-white px-4 py-2 border rounded-full hover:underline"
+            >
+              Get Started
             </Link>
           </nav>
 
@@ -70,19 +76,22 @@ const Header = () => {
         <div className="bg-white p-4 sm:hidden">
           <nav className="flex flex-col items-center gap-3">
             <Link to="#" className="hover:underline">
-              Work
+              Our Story
             </Link>
             <Link to="#" className="hover:underline">
-              About
+              Membership
             </Link>
             <Link to="#" className="hover:underline">
-              Education
+              Write
             </Link>
             <Link to="#" className="hover:underline">
-              Certifications
+              Sign In
             </Link>
-            <Link to="#" className="hover:underline">
-              Contact
+            <Link
+              to="#"
+              className="bg-black text-white px-4 py-2 border rounded-full hover:underline"
+            >
+              Get Started
             </Link>
           </nav>
         </div>

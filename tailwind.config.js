@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'primary': [ "google-sans", 'serif'],
+        'primary': [ "PT Serif", 'serif'],
         'secondary': ['Helvetica', 'Arial', 'sans-serif']
       },
       colors: {
-        blue: '#ECF9FE',
-        hola: "#23313C"
+        brandGreen: "#36a243",
+        royalGreen: "#B4e5a2"
       }
     },
   },
